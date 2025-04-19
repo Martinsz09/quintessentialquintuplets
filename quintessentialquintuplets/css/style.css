@@ -168,7 +168,7 @@ a {
     border-radius: 20px;
 }
 
-@media(min-width: 390px) and (max-width: 600px) {
+@media(min-width: 100px) and (max-width: 900px) {
     .second-section {
         display: flex;
         flex-wrap: wrap;
