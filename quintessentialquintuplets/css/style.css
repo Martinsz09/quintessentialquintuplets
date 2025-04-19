@@ -74,7 +74,7 @@ a {
 
 .second-section {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: flex-end;
     gap: 60px;
@@ -168,3 +168,14 @@ a {
     border-radius: 20px;
 }
 
+@media(min-width: 390px) and (max-width: 600px) {
+    .second-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 60px;
+        margin-top: 500px;
+        overflow-x: hidden;
+    }
+}
